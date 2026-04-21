@@ -26,9 +26,6 @@ while run:
             if event.key == pygame.K_1:
                 win.fill((0,0,0))
                 pygame.display.update()
-                #transformed_surface = pygame.transform.scale(surface, (50, 400))
-                #transformed_surface = pygame.transform.rotate(transformed_surface, 45)
-                #transformed_surface = pygame.transform.flip(transformed_surface, True, False)
                 win.blit(poly_surface, (150,150))
             elif event.key == pygame.K_2:
                 win.fill((0, 0, 0))
